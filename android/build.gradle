@@ -1,3 +1,53 @@
+// group 'appmire.be.flutterjailbreakdetection'
+// version '1.0-SNAPSHOT'
+
+// buildscript {
+//     ext.kotlin_version = '2.0.0'
+//     repositories {
+//         google()
+//         mavenCentral()
+//     }
+
+//     dependencies {
+//         classpath 'com.android.tools.build:gradle:8.4.1'
+//         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+//     }
+// }
+
+// rootProject.allprojects {
+//     repositories {
+//         google()
+//         mavenCentral()
+//         maven { url 'https://jitpack.io' }
+//     }
+// }
+
+// apply plugin: 'com.android.library'
+// apply plugin: 'kotlin-android'
+
+// android {
+//     namespace "appmire.be.flutterjailbreakdetection"
+//     compileSdk 34
+//     namespace project.group
+
+//     compileOptions {
+//         sourceCompatibility JavaVersion.VERSION_17
+//         targetCompatibility JavaVersion.VERSION_17
+//     }
+
+//     sourceSets {
+//         main.java.srcDirs += 'src/main/kotlin'
+//     }
+//     defaultConfig {
+//         minSdk 17
+//     }
+// }
+
+// dependencies {
+//     implementation 'com.github.scottyab:rootbeer:0.1.0'
+// }
+
+
 group 'appmire.be.flutterjailbreakdetection'
 version '1.0-SNAPSHOT'
 
@@ -31,8 +81,8 @@ android {
     namespace project.group
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     sourceSets {
